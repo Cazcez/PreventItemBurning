@@ -1,4 +1,4 @@
-package xyz.cazcez.PreventItemBurning;
+package xyz.cazcez.PreventItemLightning;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -10,13 +10,13 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable()
     {
-        getLogger().info(ChatColor.DARK_PURPLE + " PreventItemBurning is loading");
+        getLogger().info(ChatColor.DARK_PURPLE + "PreventItemLightning is loading");
         Bukkit.getPluginManager().registerEvents(new ItemListener(this), this);
-        getLogger().info(ChatColor.DARK_PURPLE + " PreventItemBurning is loaded");
+        getLogger().info(ChatColor.DARK_PURPLE + "PreventItemLightning is loaded");
     }
 
     public void onDisable()
     {
-        getLogger().info(ChatColor.DARK_PURPLE + " PreventItemBurning is disabled");
+        getLogger().info(ChatColor.DARK_PURPLE + "PreventItemLightning is disabled");
     }
 }

@@ -4,14 +4,8 @@ version: ${project.version}
 description: "${project.description}"
 prefix: ${spigot.prefix}
 website: "${spigot.website}"
-author: mfnalex
+author: Cazcez
 database: false
 api-version: "1.13"
 load: POSTWORLD
 
-softdepend: []
-
-permissions:
-
-commands:
-  pluginname:
