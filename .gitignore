@@ -52,5 +52,7 @@ modules.xml
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
+dependency-reduced-pom.xml
+target/
 
 
