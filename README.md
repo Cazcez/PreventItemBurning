@@ -1,2 +1,2 @@
-# PreventItemBurning
-Simple plugin for preventing item to be burned
+# PreventItemLightning
+Simple plugin for preventing item to be deleted from lightning damages
